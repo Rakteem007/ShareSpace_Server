@@ -67,7 +67,7 @@ app.use('/posts',postRoutes);
 
 //database setup
 const PORT = process.env.PORT || 6001;
-mongoose.set('strictQuery', true);
+// mongoose.set('strictQuery', true);
 mongoose.connect(process.env.URL,{
     useNewUrlParser : true,
     useUnifiedTopology : true,
